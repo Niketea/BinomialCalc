@@ -1,0 +1,32 @@
+#calcContainer{
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+#BinomialContainer{
+    font-size: 50px;
+}
+#BinomialContainer input{
+    height: 50px;
+    font-size: 50px;
+    font-family: "Permanent Marker", cursive;
+}
+#BinomialContainer .numText{
+    width: 150px;
+}
+#symbol {
+    width: 50px;
+}
+#submitButton{
+    font-family: "Permanent Marker", cursive;
+    font-weight: bold;
+    height:40px;
+    width: 80px;
+    font-size:18px;
+}
+#resultPrompt{
+    font-size:20px
+}
+#result{
+    font-size:30px
+}

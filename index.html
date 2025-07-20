@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binomial Calculator</title>
+    <link rel="stylesheet" href="binomcalc.css">
+    
+</head>
+<body>
+    <div id = "calcContainer">
+        <h1 id = "title">Binomial Calculator</h1>
+        <h2 id = "temp">Type in this format: <br> (ax<sup>n</sup> +/- ay<sup>n</sup>)<sup>n</sup></h2>
+        <div id ="BinomialContainer">(
+            <input type = "text" class = "numText" id = "a"></input>
+            <input type = "text" id = "symbol"></input>
+            <input type = "text" class = "numText" id = "b"></input>
+            ) 
+            <sup><input type = "text" class = "numText" id = "n"></input></sup>
+        </div>
+        <br>
+        <button id = "submitButton">Submit</button>
+        <br>
+        <br>
+        <div id= "resultPrompt"></div>
+        <br>
+        <div id ="result"></div>
+    </div> 
+    <script src="binomcalc.js"></script>
+</body>
+</html>
